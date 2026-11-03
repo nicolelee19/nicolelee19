@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f6f8;
+            color: #263445;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #172b4d;
+            color: white;
+            padding: 65px 10%;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #d9e2f0;
+        }
+
+        nav {
+            background: white;
+            padding: 18px 10%;
+            display: flex;
+            gap: 30px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            color: #172b4d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 25px;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #172b4d;
+            margin-bottom: 15px;
+        }
+
+        .project {
+            padding: 18px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .project:last-child {
+            border-bottom: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Nicole Lee</h1>
+        <p>Accounting | Business Intelligence & Analytics Double Major</p>
+        <p>Saint Joseph's University</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my professional portfolio! I am a Senior
+                at Saint Joseph's University studying Accounting and
+                Business Intelligence & Analytics.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <p>R Programming | Tableau | Alteryx | Excel | JMP</p>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+
+            <div class="project">
+                <h3>R Programming Projects</h3>
+                <p>Statistical analysis, regression modeling,
+                hypothesis testing, and data visualization.</p>
+            </div>
+
+            <div class="project">
+                <h3>Tableau Data Visualization</h3>
+                <p>Interactive Dashboards</p>
+            </div>
+
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <h3>Saint Joseph's University</h3>
+            <p>Accounting and Business Intelligence & Analytics</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Professional Portfolio | Nicole Lee</p>
+    </footer>
+
+</body>
+</html>
